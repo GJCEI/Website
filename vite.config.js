@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
    
   ],
-  base: "/GJCEIWebsite/",
+  base: "/Website/",
 });
