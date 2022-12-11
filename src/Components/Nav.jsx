@@ -82,7 +82,7 @@ const Nav = () => {
       >
         <Container>
           <Title style={!isDesktop?{fontSize:"12px"}:{fontSize:"30px"}} align="center" order={2} color="#10243f">
-         <img style={!isDesktop?{height:"30px",marginRight:"16px" }:{height:"70px",marginRight:"20px" }} src={GJCEILogo}></img>Golden Jublic Center For Entrepreneurship And Innovation 
+         <img style={!isDesktop?{height:"30px",marginRight:"16px" }:{height:"70px",marginRight:"20px" }} src={GJCEILogo}></img>Golden Jubilee Centre For Entrepreneurship And Innovation 
          <img style={!isDesktop?{height:"30px",marginLeft:"10px" }:{height:"70px",marginLeft:"10px" }} src={GNDULogo}></img>
        <br></br>(Infinity)
          <br></br>Under <br></br>
