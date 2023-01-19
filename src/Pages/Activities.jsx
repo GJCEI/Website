@@ -8,12 +8,15 @@ import four from "../assets/ActivitiesImg/ActivitiesImg4.jpeg";
 import five from "../assets/ActivitiesImg/ActivitiesImg5.jpeg";
 import six from "../assets/ActivitiesImg/ActivitiesImg6.jpeg";
 import seven from "../assets/ActivitiesImg/ActivitiesImg7-.jpeg";
+import eight from "../assets/ActivitiesImg/ActivitiesImg8.jpg";
+import nine from "../assets/ActivitiesImg/ActivitiesImg9.jpg";
+import ten from "../assets/ActivitiesImg/ActivitiesImg10.jpg";
 
 import Carousel from "../Components/Carousel";
 import Footer from "../Components/Footer";
 
 const Activities = () => {
-  const data = [one,two,three,four,five,six,seven];
+  const data = [one,two,three,four,five,six,seven,eight,nine,ten];
 
   return (
     <Box>
