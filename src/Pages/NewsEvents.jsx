@@ -16,7 +16,7 @@ import Carousel from "../Components/Carousel";
 import Footer from "../Components/Footer";
 
 const NewsEvents = () => {
-  const data = [one, two, three,four];
+  const data = [one, two,four];
 
   return (
     <Box>
