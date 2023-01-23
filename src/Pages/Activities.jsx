@@ -11,12 +11,13 @@ import seven from "../assets/ActivitiesImg/ActivitiesImg7-.jpeg";
 import eight from "../assets/ActivitiesImg/ActivitiesImg8.jpg";
 import nine from "../assets/ActivitiesImg/ActivitiesImg9.jpg";
 import ten from "../assets/ActivitiesImg/ActivitiesImg10.jpg";
+import eleven from "../assets/ActivitiesImg/Activities11.jpeg";
 
 import Carousel from "../Components/Carousel";
 import Footer from "../Components/Footer";
 
 const Activities = () => {
-  const data = [one,two,three,four,five,six,seven,eight,nine,ten];
+  const data = [one,two,three,four,five,six,seven,eight,nine,ten,eleven];
 
   return (
     <Box>
