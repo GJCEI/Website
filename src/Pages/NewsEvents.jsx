@@ -13,6 +13,7 @@ import event3 from "../assets/GJCEIEvents/eventimg3.png";
 import event4 from "../assets/GJCEIEvents/eventimg4.png";
 import event5 from "../assets/GJCEIEvents/eventimg5.png";
 import event6 from "../assets/GJCEIEvents/Event.png";
+import event7 from "../assets/GJCEIEvents/Eventold.jpg";
 import Carousel from "../Components/Carousel";
 import Footer from "../Components/Footer";
 
@@ -27,6 +28,28 @@ const NewsEvents = () => {
         <Text style={{ fontSize: "30px", color: "#10243f", fontWeight: "700" }}>
           News And Events
         </Text>
+        <Box mt={40} py={40}>
+
+          
+              
+<Title order={2} mb={24}>
+  Upcoming Events
+</Title>
+<Flex
+  gap="sm"
+  sx={(theme) => ({
+    flexDirection: "column",
+    [theme.fn.largerThan("md")]: {
+      flexDirection: "row",
+    },
+  })}
+>
+  <Image src={event6} />
+  <Image src={event7} />
+ 
+</Flex>
+
+</Box>
         <Box mt={32}>
           <Paper>
             <Text style={{ lineHeight: "2", fontSize: "20px" }}>
@@ -102,7 +125,7 @@ const NewsEvents = () => {
                 },
               })}
             >
-              <Image src={event6} />
+            
               <Image src={event4} />
               <Image src={event5} />
               <Image src={event1} />
