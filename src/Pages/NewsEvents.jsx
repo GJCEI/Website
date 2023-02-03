@@ -28,28 +28,7 @@ const NewsEvents = () => {
         <Text style={{ fontSize: "30px", color: "#10243f", fontWeight: "700" }}>
           News And Events
         </Text>
-        <Box mt={40} py={40}>
-
-          
-              
-<Title order={2} mb={24}>
-  Upcoming Events
-</Title>
-<Flex
-  gap="sm"
-  sx={(theme) => ({
-    flexDirection: "column",
-    [theme.fn.largerThan("md")]: {
-      flexDirection: "row",
-    },
-  })}
->
-  <Image src={event6} />
-  <Image src={event7} />
- 
-</Flex>
-
-</Box>
+       
         <Box mt={32}>
           <Paper>
             <Text style={{ lineHeight: "2", fontSize: "20px" }}>
@@ -107,14 +86,49 @@ const NewsEvents = () => {
               as a driving force to the youth aspirants. New episodes are held
               at regular basis. The live streaming is witnessed at the councils
               social media handles. <br />
+
             </Text>
           </Paper>
           <Box mt={40} py={40}>
 
           
               
+<Title order={2} mb={24}>
+  Upcoming Events
+</Title>
+<box>
+<text style={{ lineHeight: "2", fontSize: "20px" }}>The Guru Nanak Dev University & Golden Jubilee Centre For Entrepreneurship And Innovation is hosting an event focused on women entrepreneurship.
+The event aims to promote and support women who are starting or running their own businesses.
+The event will provide a platform for women entrepreneurs to network and learn from successful business leaders and experts in the field.
+It will also feature keynote speeches, panel discussions, and workshops to provide practical information and inspiration to women entrepreneurs.
+The event is open to women from all industries and backgrounds, and provides a unique opportunity for them to connect and grow their businesses.<br></br><br></br></text>
+</box>
+
+<Flex
+  gap="sm"
+  sx={(theme) => ({
+    flexDirection: "column",
+    [theme.fn.largerThan("md")]: {
+      flexDirection: "row",
+    },
+  })}
+>
+  
+  <Image
+   
+   height={940}
+   style={{marginBottom:"50px"}} src={event6} />
+  <Image  src={event7} />
+ 
+</Flex>
+
+</Box>
+          <Box mt={40} py={40}>
+
+          
+              
             <Title order={2} mb={24}>
-              Events
+             Former Events
             </Title>
             <Flex
               gap="sm"
