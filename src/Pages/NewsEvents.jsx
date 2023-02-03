@@ -12,7 +12,7 @@ import event2 from "../assets/GJCEIEvents/eventimg2.png";
 import event3 from "../assets/GJCEIEvents/eventimg3.png";
 import event4 from "../assets/GJCEIEvents/eventimg4.png";
 import event5 from "../assets/GJCEIEvents/eventimg5.png";
-import event6 from "../assets/GJCEIEvents/Event.jpg";
+import event6 from "../assets/GJCEIEvents/Event.png";
 import Carousel from "../Components/Carousel";
 import Footer from "../Components/Footer";
 
