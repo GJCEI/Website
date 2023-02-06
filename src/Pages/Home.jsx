@@ -2,7 +2,7 @@ import { Box, Title, Paper, Text, Container } from "@mantine/core";
 import Footer from ".././Components/Footer";
 import "../Pages/Home.css";
 // Images
-import one from "../assets/HomePageImg/Home1.jpg";
+import one from "../assets/HomePageImg/Home.jpg";
 import two from "../assets/HomePageImg/Home2-.jpeg";
 import three from "../assets/HomePageImg/Home3.jpg";
 import four from "../assets/HomePageImg/Home4.jpeg";
