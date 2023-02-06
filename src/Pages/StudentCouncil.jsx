@@ -22,12 +22,21 @@ import SC16 from ".././assets/StudentCouncilImg/SC16.png";
 import SC17 from ".././assets/StudentCouncilImg/SC17.png";
 import SC19 from ".././assets/StudentCouncilImg/SC19.png";
 
+import Student1 from ".././assets/StudentCouncilImg/Students1.jpeg";
+import Student2 from ".././assets/StudentCouncilImg/Students2.jpeg";
+import Student3 from ".././assets/StudentCouncilImg/Students3.jpg";
+import Student4 from ".././assets/StudentCouncilImg/Students4.jpg";
+import Student5 from ".././assets/StudentCouncilImg/Students5.jpg";
+import Student6 from ".././assets/StudentCouncilImg/Students6.jpg";
+import Student7 from ".././assets/StudentCouncilImg/Students7.jpeg";
+
+
 import Profile from "../Components/Profile";
 import Footer  from "../Components/Footer";
 import  Carousel  from "../Components/Carousel";
 
 const StudentCouncil = () => {
-const data = [SC0];
+const data = [SC0,Student1,Student2,Student3,Student4,Student5,Student6,Student7];
 
   return (
     <Box >
