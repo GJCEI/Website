@@ -81,7 +81,7 @@ const data = [SC0,Student1,Student2,Student3,Student4,Student5,Student6,Student7
       <div className="grid-item">
       <Profile
             Img={SC11}
-            Name="jyoti Yadav"
+            Name="Jyoti Yadav"
             Designation="Innovation and event Management"
             Department="Department: Biotechnology"
             ></Profile>
