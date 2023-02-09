@@ -6,7 +6,7 @@ import one from "../assets/HomePageImg/Home.jpg";
 import two from "../assets/HomePageImg/Home2-.jpeg";
 import three from "../assets/HomePageImg/Home3.jpg";
 import four from "../assets/HomePageImg/Home4.jpeg";
-import five from "../assets/HomePageImg/try.jpg";
+
 
 import six from "../assets/HomePageImg/Home6.jpg";
 // Linkage Images
@@ -25,7 +25,7 @@ import Linkage11 from "../assets/linkageImg/linkageIMG11.jpeg";
 import Carousel from "../Components/Carousel";
 
 const Home = () => {
-  const data = [one,two,three,four,six,five];
+  const data = [one,two,three,four,six];
 
   return (
     <Box>

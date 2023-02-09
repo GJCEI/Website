@@ -72,7 +72,9 @@ const Footer = () => {
                 </UnstyledButton>
               </li>
             </ul>
+
           </Box>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d504.9534497968935!2d74.82288674736114!3d31.636359216362447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39196524044e0c05%3A0xd8dfd2fb2fa3406c!2sGuru%20Nanak%20Dev%20University%20Museum!5e0!3m2!1sen!2sin!4v1675925834357!5m2!1sen!2sin" style={{height:"100%",width:"500px"}}></iframe>
 
           <div class="row">GJCEI Copyright © 2022</div>
         </div>
