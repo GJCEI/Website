@@ -1,22 +1,23 @@
 import { Box, Title, Paper, Text, Container } from "@mantine/core";
 
 // Images
-import one from "../assets/InfrastructureImg/IMG1.jpeg";
-import two from "../assets/InfrastructureImg/IMG2-.jpeg";
-import three from "../assets/InfrastructureImg/IMG3.jpeg";
-import four from "../assets/InfrastructureImg/IMG4-.jpeg";
-import five from "../assets/InfrastructureImg/IMG5.jpeg";
-import six from "../assets/InfrastructureImg/IMG6.jpeg";
-import seven from "../assets/InfrastructureImg/IMG7.jpeg";
-import eight from "../assets/InfrastructureImg/IMG8-.jpeg";
-import nine from "../assets/InfrastructureImg/IMG9-.jpeg";
-import ten from "../assets/InfrastructureImg/IMG10.jpeg";
+import one from "../assets/InfrastructureImg/IMGA.jpg";
+import two from "../assets/InfrastructureImg/IMGB.jpg";
+import three from "../assets/InfrastructureImg/IMGC.jpeg";
+import four from "../assets/InfrastructureImg/IMGD.jpeg";
+import five from "../assets/InfrastructureImg/IMGE.jpeg";
+import six from "../assets/InfrastructureImg/IMGF.jpeg";
+import seven from "../assets/InfrastructureImg/IMGG.jpeg";
+import eight from "../assets/InfrastructureImg/IMGH.jpeg";
+import nine from "../assets/InfrastructureImg/IMGI.jpeg";
+import ten from "../assets/InfrastructureImg/IMGJ.jpeg";
+import eleven from "../assets/InfrastructureImg/IMGK.jpeg";
 
 import Carousel from "../Components/Carousel";
 import  Footer  from "../Components/Footer";
 
 const Infrastructure = () => {
-  const data = [one, two, three, four, five,six, seven, eight, nine, ten];
+  const data = [one, two, three, four, five,six, seven, eight, nine, ten,eleven];
 
   return (
     <Box>
