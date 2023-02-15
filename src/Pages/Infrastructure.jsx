@@ -17,7 +17,7 @@ import Carousel from "../Components/Carousel";
 import  Footer  from "../Components/Footer";
 
 const Infrastructure = () => {
-  const data = [one, two, three, four, five,six, seven, eight, nine, ten,eleven];
+  const data = [one, two, three, four, five,six, seven, ten,eleven];
 
   return (
     <Box>

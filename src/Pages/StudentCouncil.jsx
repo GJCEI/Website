@@ -21,6 +21,8 @@ import SC15 from ".././assets/StudentCouncilImg/SC15.png";
 import SC16 from ".././assets/StudentCouncilImg/SC16.png";
 import SC17 from ".././assets/StudentCouncilImg/SC17.png";
 import SC19 from ".././assets/StudentCouncilImg/SC19.png";
+import SC20 from ".././assets/StudentCouncilImg/SC22.jpeg";
+
 
 import Student1 from ".././assets/StudentCouncilImg/Students1.jpeg";
 import Student2 from ".././assets/StudentCouncilImg/Students2.jpeg";
@@ -117,6 +119,14 @@ const data = [SC0,Student1,Student2,Student3,Student4,Student5,Student6,Student7
         Name="Simran Mehra"
         Designation="I.T and Social Media Development"
         Department="Department: Chemistry"
+        ></Profile>
+      </div>
+      <div class="grid-item">
+      <Profile
+        Img={SC20}
+        Name="Divya Acharya"
+        Designation="I.T and Social Media Development,Innovation and event Management"
+        Department="Department:CET"
         ></Profile>
       </div>
       <div class="grid-item">
