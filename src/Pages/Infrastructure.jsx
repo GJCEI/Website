@@ -22,6 +22,7 @@ const Infrastructure = () => {
   return (
     <Box>
     
+    
       <Carousel images={data} />
 
       <Container>

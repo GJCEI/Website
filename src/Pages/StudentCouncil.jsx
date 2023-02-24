@@ -15,13 +15,12 @@ import SC9 from ".././assets/StudentCouncilImg/SC9.png";
 import SC10 from ".././assets/StudentCouncilImg/SC10.png";
 import SC11 from ".././assets/StudentCouncilImg/SC11.png";
 import SC12 from ".././assets/StudentCouncilImg/SC12.png";
-import SC13 from ".././assets/StudentCouncilImg/SC13.png";
+import SC13 from ".././assets/StudentCouncilImg/SC13.jpeg";
 import SC14 from ".././assets/StudentCouncilImg/SC14.png";
-import SC15 from ".././assets/StudentCouncilImg/SC15.png";
 import SC16 from ".././assets/StudentCouncilImg/SC16.png";
 import SC17 from ".././assets/StudentCouncilImg/SC17.png";
 import SC19 from ".././assets/StudentCouncilImg/SC19.png";
-import SC20 from ".././assets/StudentCouncilImg/SC22.jpeg";
+import SC20 from ".././assets/StudentCouncilImg/SC22.png";
 
 
 import Student1 from ".././assets/StudentCouncilImg/Students1.jpeg";

@@ -3,24 +3,6 @@ import { Box, Title, Paper, Text, Container, Flex } from "@mantine/core";
 import "./Staff.css";
 // Images
 import SC0 from ".././assets/StudentCouncilImg/SC0.jpg";
-import SC1 from ".././assets/StudentCouncilImg/SC1.png";
-import SC2 from ".././assets/StudentCouncilImg/SC2.png";
-import SC3 from ".././assets/StudentCouncilImg/SC3.png";
-import SC4 from ".././assets/StudentCouncilImg/SC4.png";
-import SC5 from ".././assets/StudentCouncilImg/SC5.png";
-import SC6 from ".././assets/StudentCouncilImg/SC6.png";
-import SC7 from ".././assets/StudentCouncilImg/SC7.png";
-import SC8 from ".././assets/StudentCouncilImg/SC8.png";
-import SC9 from ".././assets/StudentCouncilImg/SC9.png";
-import SC10 from ".././assets/StudentCouncilImg/SC10.png";
-import SC11 from ".././assets/StudentCouncilImg/SC11.png";
-import SC12 from ".././assets/StudentCouncilImg/SC12.png";
-import SC13 from ".././assets/StudentCouncilImg/SC13.png";
-import SC14 from ".././assets/StudentCouncilImg/SC14.png";
-import SC15 from ".././assets/StudentCouncilImg/SC15.png";
-import SC16 from ".././assets/StudentCouncilImg/SC16.png";
-import SC17 from ".././assets/StudentCouncilImg/SC17.png";
-import SC19 from ".././assets/StudentCouncilImg/SC19.png";
 import St1 from ".././assets/StaffImg/St1.png";
 import St2 from ".././assets/StaffImg/St2.png";
 import St3 from ".././assets/StaffImg/St3.png";
@@ -34,6 +16,28 @@ import St10 from ".././assets/StaffImg/St10.png";
 import St11 from ".././assets/StaffImg/St11.png";
 import St12 from ".././assets/StaffImg/St12.png";
 import S13 from ".././assets/StaffImg/S13.png";
+
+
+// Images
+
+import SC1 from ".././assets/StudentCouncilImg/SC1.png";
+import SC2 from ".././assets/StudentCouncilImg/SC2.png";
+import SC3 from ".././assets/StudentCouncilImg/SC3.png";
+import SC4 from ".././assets/StudentCouncilImg/SC4.png";
+import SC5 from ".././assets/StudentCouncilImg/SC5.png";
+import SC6 from ".././assets/StudentCouncilImg/SC6.png";
+import SC7 from ".././assets/StudentCouncilImg/SC7.png";
+import SC8 from ".././assets/StudentCouncilImg/SC8.png";
+import SC9 from ".././assets/StudentCouncilImg/SC9.png";
+import SC10 from ".././assets/StudentCouncilImg/SC10.png";
+import SC11 from ".././assets/StudentCouncilImg/SC11.png";
+import SC12 from ".././assets/StudentCouncilImg/SC12.png";
+import SC13 from ".././assets/StudentCouncilImg/SC13.jpeg";
+import SC14 from ".././assets/StudentCouncilImg/SC14.png";
+import SC16 from ".././assets/StudentCouncilImg/SC16.png";
+import SC17 from ".././assets/StudentCouncilImg/SC17.png";
+import SC19 from ".././assets/StudentCouncilImg/SC19.png";
+import SC20 from ".././assets/StudentCouncilImg/SC22.png";
 import Profile from "../Components/Profile";
 import Footer from "../Components/Footer";
 
@@ -322,14 +326,7 @@ const Committee = () => {
                                   Department="Department: Mass Communications"
                                 ></Profile>
                               </div>
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC6}
-                                  Name="Nipun Mahajan"
-                                  Designation="Promotion and Outreach activities,Content Development"
-                                  Department="Department: Electronics Technology"
-                                ></Profile>
-                              </div>
+                         
                               {/* Press */}
                               <div class="grid-item">
                                 <Profile
@@ -349,21 +346,14 @@ const Committee = () => {
                               </div>
                               {/* Industry */}
                               <div class="grid-item">
-                                <Profile
-                                  Img={SC9}
-                                  Name="Aashish Tirka"
-                                  Designation="Industrial/ Entrepreneurship linkage"
-                                  Department="Department: CSDA"
-                                ></Profile>
-                              </div>
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC10}
-                                  Name="Arjun Mehra"
-                                  Designation="Industrial/ Entrepreneurship linkage"
-                                  Department="Department: CSDA"
-                                ></Profile>
-                              </div>
+      <Profile
+        Img={SC20}
+        Name="Divya Acharya"
+        Designation="I.T and Social Media Development,Innovation and event Management"
+        Department="Department:CET"
+        ></Profile>
+      </div>
+                             
                             </div>
                           </div>
                         </div>
