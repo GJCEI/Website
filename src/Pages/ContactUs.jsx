@@ -4,11 +4,13 @@ import {
   Paper,
   Text,
   Container,
+  Select,
   Flex,
   TextInput,
   Textarea,
   Button,
 } from "@mantine/core";
+
 import {
   IconPhone,
   IconMail
@@ -29,7 +31,7 @@ const ContactUs = () => {
             marginTop: "20px",
           }}
         >
-          Contact Us
+          Linkage Form
         </Text>
         <Box mt={32}>
           <Paper withBorder p="lg">
@@ -40,7 +42,7 @@ const ContactUs = () => {
               maw={300}
               mx="auto"
             >
-              <Flex gap="sm" 
+              {/* <Flex gap="sm" 
               align="center"
               maw={300}
               mx="auto">
@@ -51,9 +53,9 @@ const ContactUs = () => {
               maw={300}
               mx="auto">
               <IconMail></IconMail> coordinator.gjcei@gndu.ac.in
-              </Flex>
+              </Flex> */}
 
-              <strong>Or</strong>
+  
                           
               <TextInput
                 placeholder="Name..."
@@ -61,13 +63,53 @@ const ContactUs = () => {
                 required
                 sx={{ width: "100%" }}
               />
-
+              <Flex
+              gap={20}
+              >
               <TextInput
                 placeholder="Email..."
                 label="Email"
                 required
                 sx={{ width: "100%" }}
               />
+                <TextInput
+                placeholder="Phone..."
+                label="Phone"
+                required
+                sx={{ width: "100%" }}
+              />
+              </Flex>
+         
+              <Select
+      label="What describes you best?"
+      placeholder="Pick one"
+      sx={{ width: "100%" }}
+      data={[
+        { value: 'Startup/Aspiring Entrepreneur', label: 'Startup/Aspiring Entrepreneur' },
+        { value: 'Mentor', label: 'Mentor' },
+        { value: 'Investor', label: 'Investor' },
+        { value: 'Industry/SME', label: 'Industry/SME' },
+        { value: 'Business Service Provider', label: 'Business Service Provider' },
+      ]}
+    />
+
+              
+
+             <TextInput
+                placeholder="Company Name"
+                label="Company Name"
+                required
+                sx={{ width: "100%" }}
+              />
+              
+              <TextInput
+                placeholder="www.      .com/.org"
+                label="Website/Online Presence"
+                required
+                sx={{ width: "100%" }}
+              />
+
+              
 
               <Textarea
                 placeholder="Message"

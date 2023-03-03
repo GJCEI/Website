@@ -16,12 +16,14 @@ import event6 from "../assets/GJCEIEvents/Event.png";
 import event7 from "../assets/GJCEIEvents/Eventold.jpg";
 import Carousel from "../Components/Carousel";
 import Footer from "../Components/Footer";
+import Events from "../Components/Events";
 
 const NewsEvents = () => {
   const data = [one, two,four];
 
   return (
     <Box>
+    
       <Carousel images={data} />
 
       <Container>
@@ -46,6 +48,8 @@ const NewsEvents = () => {
               >
                 Some of the event conducted:
               </Text>
+
+        
               <strong>IPR WORKSHPOS:</strong> This aims at providing an overview
               of Intellectual Property Rights. It is a tree branching at:
               <ul style={{ marginLeft: "30px", marginBottom: "-30px" }}>
@@ -96,13 +100,9 @@ const NewsEvents = () => {
 <Title order={2} mb={24}>
   Upcoming Events
 </Title>
-<box>
-<text style={{ lineHeight: "2", fontSize: "20px" }}>The Guru Nanak Dev University & Golden Jubilee Centre For Entrepreneurship And Innovation is hosting an event focused on women entrepreneurship.
-The event aims to promote and support women who are starting or running their own businesses.
-The event will provide a platform for women entrepreneurs to network and learn from successful business leaders and experts in the field.
-It will also feature keynote speeches, panel discussions, and workshops to provide practical information and inspiration to women entrepreneurs.
-The event is open to women from all industries and backgrounds, and provides a unique opportunity for them to connect and grow their businesses.<br></br><br></br></text>
-</box>
+<p>No Upcoming Events</p>
+
+
 
 <Flex
   gap="sm"
@@ -114,11 +114,7 @@ The event is open to women from all industries and backgrounds, and provides a u
   })}
 >
   
-  <Image
-   
-   height={940}
-   style={{marginBottom:"50px"}} src={event6} />
-  <Image  src={event7} />
+  
  
 </Flex>
 
@@ -139,7 +135,9 @@ The event is open to women from all industries and backgrounds, and provides a u
                 },
               })}
             >
-            
+                  <Events/>
+             <Image src={event6} />
+              <Image  src={event7} />
               <Image src={event4} />
               <Image src={event5} />
               <Image src={event1} />

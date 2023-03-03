@@ -52,7 +52,7 @@ const Nav = () => {
       path:"/Activities"
     },
     {
-      label:"Contact Us",
+      label:"Linkage Form",
       path:"/ContactUs"
     },
     
