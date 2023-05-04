@@ -10,7 +10,6 @@ import {
   Textarea,
   Button,
 } from "@mantine/core";
-
 import {
   IconPhone,
   IconMail
@@ -42,7 +41,8 @@ const ContactUs = () => {
               maw={300}
               mx="auto"
             >
-              {/* <Flex gap="sm" 
+              {/* 
+              <Flex gap="sm" 
               align="center"
               maw={300}
               mx="auto">
@@ -53,10 +53,8 @@ const ContactUs = () => {
               maw={300}
               mx="auto">
               <IconMail></IconMail> coordinator.gjcei@gndu.ac.in
-              </Flex> */}
-
-  
-                          
+              </Flex> 
+              */}                          
               <TextInput
                 placeholder="Name..."
                 label="Name"
@@ -109,8 +107,7 @@ const ContactUs = () => {
                 sx={{ width: "100%" }}
               />
 
-              
-
+  
               <Textarea
                 placeholder="Message"
                 label="Message"

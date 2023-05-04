@@ -1,29 +1,26 @@
-import { Box, Title, Paper, Text, Container } from "@mantine/core";
+import { Avatar, Text, Button, Paper } from '@mantine/core';
 
-const Profile = (props) => {
+
+
+function Profile(props) {
   return (
-    <div>
-      <div style={{ margin: "12px" }}>
-        <img src={props.Img} style={{ height: "250px" }}></img>
-        <Text
-          style={{
-            fontWeight: "700",
-            fontSize: "17px",
-            marginTop: "20px",
-            textAlign: "center",
-          }}
-        >
-          {props.Name}
-        </Text>
-        <Text style={{ color: "grey", textAlign: "center" }}>
-          {props.Designation}
-        </Text>
-        <Text style={{ color: "grey", textAlign: "center" }}>
-          {props.Department}
-        </Text>
-      </div>
-    </div>
+    <Paper
+      radius="md"
+      withBorder
+      p="lg"
+      sx={(theme) => ({
+        backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[8] : theme.white,
+      })}
+    >
+      <Avatar src={props.avatar} size={120} radius={120} mx="auto" />
+      <Text ta="center" fz="lg" weight={500} mt="md">
+        {props.name}
+      </Text>
+      <Text ta="center" c="dimmed" fz="sm">
+      {props.job} • {props.Department} 
+      </Text>
+    </Paper>
   );
-};
+}
 
 export default Profile;

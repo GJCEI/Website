@@ -1,6 +1,7 @@
-import { Box, Title, Paper, Text, Container } from "@mantine/core";
+import { Box, Title, Paper, Text, Container, Flex } from "@mantine/core";
 import Footer from ".././Components/Footer";
 import "../Pages/Home.css";
+import "../Components/coordinatorMessage.css";
 // Images
 import one from "../assets/HomePageImg/Home.jpg";
 import two from "../assets/HomePageImg/Home2-.jpeg";
@@ -30,7 +31,17 @@ const Home = () => {
   return (
     <Box>
     
-      <Carousel images={data} />
+      {/* <Carousel images={data} /> */}
+<Container>
+<div className="coordinator-message">
+      <h2 className="coordinator-message__title">Coordinator Message</h2>
+      <Flex justify="center">
+<img></img>
+<p></p>
+      </Flex>
+    </div>
+</Container>
+     
 
       <Container>
       <Text style={{fontSize:"30px",color:"#10243f",fontWeight:"700"}}>Home</Text>
@@ -52,7 +63,7 @@ High performance equipment, machine learning, and AI learning are accessible in 
 
         </Container>  
         <div class="cards">
-        <div class="card"><img className="LinkageImg" style={{height:"200px"}} src={Linkage11}></img></div>
+<div class="card"><img className="LinkageImg" style={{height:"200px"}} src={Linkage11}></img></div>
   <div class="card"><img className="LinkageImg" src={Linkage2}></img></div>
   <div class="card"><img className="LinkageImg" src={Linkage3}></img></div>
   <div class="card"><img className="LinkageImg" src={Linkage4} ></img></div>
@@ -63,7 +74,6 @@ High performance equipment, machine learning, and AI learning are accessible in 
   <div class="card"><img className="LinkageImg" src={Linkage9}></img></div>
   <div class="card"><img className="LinkageImg" src={Linkage10}></img></div>
   <div class="card"><img className="LinkageImg" src={Linkage1}></img></div>
-
 </div>
         
 

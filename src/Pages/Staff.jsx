@@ -60,9 +60,9 @@ const Committee = () => {
           <Paper>
             <Flex justify="center">
               <Profile
-                Img={S13}
-                Name="Prof. (Dr.) Jaspal Singh Sandhu"
-                Designation="Vice chancellor"
+                avatar={S13}
+                name="Prof. (Dr.) Jaspal Singh Sandhu"
+                job="Vice chancellor"
               />
             </Flex>
             <Flex
@@ -76,15 +76,15 @@ const Committee = () => {
               })}
             >
               <Profile
-                Img={St12}
-                Name="Prof. Sarabjot Singh behl"
-                Designation="Nodal Officer Rusa 2.0"
+                avatar={St12}
+                name="Prof. Sarabjot Singh behl"
+                job="Nodal Officer Rusa 2.0"
               />
 
               <Profile
-                Img={St8}
-                Name="Prof. (Dr) P.K. Pati"
-                Designation="Coordinator, GJCEI"
+                avatar ={St8}
+                name="Prof. (Dr) P.K. Pati"
+                job="Coordinator, GJCEI"
               />
             </Flex>
 
@@ -115,42 +115,42 @@ const Committee = () => {
                   <div class="grid-row">
                     <div class="grid-item">
                       <Profile
-                        Img={St2}
-                        Name="Ms. Harkirandeep Kaur"
-                        Designation="Incharge IPR Cell GJCEI"
+                        avatar={St2}
+                        name="Ms. Harkirandeep Kaur"
+                        job="Incharge IPR Cell GJCEI"
                         Department="Department: Law"
                       ></Profile>
                     </div>
                     <div class="grid-item">
                       <Profile
-                        Img={St1}
-                        Name="Dr. Swati Mehta"
-                        Designation="Startup and Promotions"
+                        avatar={St1}
+                        name="Dr. Swati Mehta"
+                        job="Startup and Promotions"
                         Department="Department: Economics"
                       ></Profile>
                     </div>
 
                     <div className="grid-item">
                       <Profile
-                        Img={St3}
-                        Name="Dr. Prabhpreet Singh"
-                        Designation="Facility Mentor for Startup Activities"
+                        avatar={St3}
+                        name="Dr. Prabhpreet Singh"
+                        job="Facility Mentor for Startup Activities"
                         Department="Department: Chemistry"
                       ></Profile>
                     </div>
                     <div className="grid-item">
                       <Profile
-                        Img={St10}
-                        Name="Dr. Kuldeep Singh Brar"
-                        Designation="Faculty Mentor for Discovery Lab"
+                        avatar={St10}
+                        name="Dr. Kuldeep Singh Brar"
+                        job="Faculty Mentor for Discovery Lab"
                         Department="Department: Electronics"
                       ></Profile>
                     </div>
                     <div className="grid-item">
                       <Profile
-                        Img={St11}
-                        Name="Dr. Rajdeep Singh Sohal"
-                        Designation="Faculty Mentor for Discovery Lab"
+                        avatar={St11}
+                        name="Dr. Rajdeep Singh Sohal"
+                        job="Faculty Mentor for Discovery Lab"
                         Department="Department: Electronics"
                       ></Profile>
                     </div>
@@ -172,193 +172,40 @@ const Committee = () => {
                   <div className="grid-row">
                     <div class="grid-item">
                       <Profile
-                        Img={St4}
-                        Name="Dr. Hardesh Kumar"
-                        Designation="Senior Technician"
+                        avatar={St4}
+                        name="Dr. Hardesh Kumar"
+                        job="Senior Technician"
                       ></Profile>
                     </div>
                     <div class="grid-item">
                       <Profile
-                        Img={St9}
-                        Name="Pardeep Dutta"
-                        Designation="Data Entry Operator"
+                        avatar={St9}
+                        name="Pardeep Dutta"
+                        job="Data Entry Operator"
                       ></Profile>
                     </div>
                     <div class="grid-item">
                       <Profile
-                        Img={St5}
-                        Name="Gurmeet Kaur"
-                        Designation="Data Entry Operator"
+                        avatar={St5}
+                        name="Gurmeet Kaur"
+                        job="Data Entry Operator"
                       ></Profile>
                     </div>
                     <div className="grid-item">
                       <Profile
-                        Img={St6}
-                        Name="Bikram Singh"
-                        Designation="Staff"
+                        avatar={St6}
+                        name="Bikram Singh"
+                        job="Staff"
                       ></Profile>
                     </div>
 
-                    <div className="grid-item">
-                      <Profile
-                        Img={St7}
-                        Name="Tripta Devi"
-                        Designation="Staff"
-                      ></Profile>
-                    </div>
                   </div>
                 </div>
 
                 <Container>
-                  <Text
-                    style={{
-                      fontSize: "30px",
-                      color: "#10243f",
-                      fontWeight: "700",
-                      marginTop: "20px",
-                      textAlign: "center",
-                    }}
-                  >
-                    Student Council
-                  </Text>
+              
                   <Box mt={32}>
-                    <Paper>
-                      <Text>
-                        <div class="section">
-                          <div class="container">
-                            <div class="grid-row">
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC4}
-                                  Name="Surmeet Singh"
-                                  Designation="Secratory"
-                                  Department="Department: Electronics Technology"
-                                ></Profile>
-                              </div>
-                              {/* Event And Innovation */}
-                              <div class="grid-item">
-                                <Profile
-                                  Img={SC2}
-                                  Name="Sukhbeer Singh"
-                                  Designation="Innovation and event Management"
-                                  Department="Department: Electronics Technology"
-                                ></Profile>
-                              </div>
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC5}
-                                  Name="Arshdeep Kaur"
-                                  Designation="Innovation and event Management"
-                                  Department="Department: Physics"
-                                ></Profile>
-                              </div>
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC11}
-                                  Name="jyoti Yadav"
-                                  Designation="Innovation and event Management"
-                                  Department="Department: Biotechnology"
-                                ></Profile>
-                              </div>
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC12}
-                                  Name="Parminder singh"
-                                  Designation="Innovation and event Management, Promotion and Outreach activities"
-                                  Department="Department: Mechanical Engineering"
-                                ></Profile>
-                              </div>
-                              <div class="grid-item">
-                                <Profile
-                                  Img={SC13}
-                                  Name="Raumit Raj"
-                                  Designation="Innovation and event Management"
-                                  Department="Department: Electronics Technology"
-                                ></Profile>
-                              </div>
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC14}
-                                  Name="Harvir Kaur"
-                                  Designation="Innovation and event Management"
-                                  Department="Department: Law"
-                                ></Profile>
-                              </div>
-                              {/* IT and Social Media */}
-                              <div class="grid-item">
-                                <Profile
-                                  Img={SC1}
-                                  Name="Simran Mehra"
-                                  Designation="I.T and Social Media Development"
-                                  Department="Department: Chemistry"
-                                ></Profile>
-                              </div>
-                              <div class="grid-item">
-                                <Profile
-                                  Img={SC8}
-                                  Name="Ankit Partap"
-                                  Designation="I.T and Social Media Development"
-                                  Department="Department: Computer Science"
-                                ></Profile>
-                              </div>
-                              {/* Promotion */}
-                              <div class="grid-item">
-                                <Profile
-                                  Img={SC3}
-                                  Name="Jasmine Kaur"
-                                  Designation="Promotion and Outreach activities,Content Development"
-                                  Department="Department: Mass Communications"
-                                ></Profile>
-                              </div>
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC16}
-                                  Name="Ishmanpreet Kaur"
-                                  Designation="Promotion and Outreach activities"
-                                  Department="Department: Electronics Technology"
-                                ></Profile>
-                              </div>
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC17}
-                                  Name="Shabnampreet Kaur"
-                                  Designation="Promotion and Outreach activities,Content Development"
-                                  Department="Department: Mass Communications"
-                                ></Profile>
-                              </div>
-                         
-                              {/* Press */}
-                              <div class="grid-item">
-                                <Profile
-                                  Img={SC7}
-                                  Name="Yatin Batra"
-                                  Designation="Press and publication"
-                                  Department="Department: Chemistry"
-                                ></Profile>
-                              </div>
-                              <div className="grid-item">
-                                <Profile
-                                  Img={SC19}
-                                  Name="Jaismeen Kaur"
-                                  Designation="Press and publication"
-                                  Department="Department: Human Genetics"
-                                ></Profile>
-                              </div>
-                              {/* Industry */}
-                              <div class="grid-item">
-      <Profile
-        Img={SC20}
-        Name="Divya Acharya"
-        Designation="I.T and Social Media Development,Innovation and event Management"
-        Department="Department:CET"
-        ></Profile>
-      </div>
-                             
-                            </div>
-                          </div>
-                        </div>
-                      </Text>
-                    </Paper>
+                   
                   </Box>
                 </Container>
               </div>

@@ -21,8 +21,19 @@ import SC16 from ".././assets/StudentCouncilImg/SC16.png";
 import SC17 from ".././assets/StudentCouncilImg/SC17.png";
 import SC19 from ".././assets/StudentCouncilImg/SC19.png";
 import SC20 from ".././assets/StudentCouncilImg/SC22.png";
-
-
+import SC21 from ".././assets/StudentCouncilImg/SC23.png";
+import SC22 from ".././assets/StudentCouncilImg/SC24.png";
+import SC23 from ".././assets/StudentCouncilImg/SC25.png";
+import SC24 from ".././assets/StudentCouncilImg/SC26.png";
+import SC25 from ".././assets/StudentCouncilImg/SC27.png";
+import SC26 from ".././assets/StudentCouncilImg/SC28.png";
+import SC27 from ".././assets/StudentCouncilImg/SC29.png";
+import SC28 from ".././assets/StudentCouncilImg/SC30.png";
+import SC29 from ".././assets/StudentCouncilImg/SC31.png";
+import SC30 from ".././assets/StudentCouncilImg/SC32.png";
+import SC31 from ".././assets/StudentCouncilImg/SC33.png";
+import SC32 from ".././assets/StudentCouncilImg/SC34.png";
+import SC33 from ".././assets/StudentCouncilImg/SC35.png";
 import Student1 from ".././assets/StudentCouncilImg/Students1.jpeg";
 import Student2 from ".././assets/StudentCouncilImg/Students2.jpeg";
 import Student3 from ".././assets/StudentCouncilImg/Students3.jpg";
@@ -53,158 +64,262 @@ const data = [SC0,Student1,Student2,Student3,Student4,Student5,Student6,Student7
 
             <div class="section">
   <div class="container">
+  <Text style={{fontSize:"25px",color:"#10243f",fontWeight:"500", margin:"20px",textAlign:"center"}}>IT and Web</Text>
     <div class="grid-row">
     <div className="grid-item">
       <Profile
-            Img={SC4}
-            Name="Surmeet Singh"
-            Designation="Secratory"
-            Department = "Department: Electronics Technology"
+            avatar={SC33}
+            name="Tushar Anand"
+            job="IT and Web"
+            Department="Department: Computer Science"
             ></Profile>
       </div>
+      </div>
+      <Text style={{fontSize:"25px",color:"#10243f",fontWeight:"500", margin:"20px",textAlign:"center"}}>I-Buzz</Text>
+    <div class="grid-row">
+    <div class="grid-item">
+      <Profile
+            avatar={SC3}
+            name="Jasmine Kaur"
+            job="Promotion and Outreach activities,Content Development"
+            Department="Department: Mass Communications"
+            ></Profile>
+      </div>
+      </div>
+      <Text style={{fontSize:"25px",color:"#10243f",fontWeight:"500", margin:"20px",textAlign:"center"}}>E-Chupal</Text>
+    <div class="grid-row">
       {/* Event And Innovation */}
       <div class="grid-item">
       <Profile
-            Img={SC2}
-            Name="Sukhbeer Singh"
-            Designation="Innovation and event Management"
-            Department = "Department: Electronics Technology"
+            avatar={SC8}
+            name="Ankit Partap"
+            job="I.T and Social Media Development"
+            Department="Department: Computer Science"
             ></Profile>
       </div>
       <div className="grid-item">
       <Profile
-            Img={SC5}
-            Name="Arshdeep Kaur"
-            Designation="Innovation and event Management"
-            Department = "Department: Physics"
+            avatar={SC24}
+            name="Neelam"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: Law"
             ></Profile>
       </div>
       <div className="grid-item">
       <Profile
-            Img={SC11}
-            Name="Jyoti Yadav"
-            Designation="Innovation and event Management"
+            avatar={SC22}
+            name="Rohain Singh Aulakh"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+
+      <div className="grid-item">
+      <Profile
+            avatar={SC27}
+            name="Saryoo Arora"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC26}
+            name="Palak Chopra"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+</div>
+      <Text style={{fontSize:"25px",color:"#10243f",fontWeight:"500", margin:"20px",textAlign:"center"}}>E-Spotlight</Text>
+    <div class="grid-row">
+
+    <div className="grid-item">
+      <Profile
+            avatar={SC28}
+            name="Priya Bhardwaj"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC16}
+            name="Ishmanpreet Kaur"
+            job="Promotion and Outreach activities"
+            Department="Department: Electronics Technology"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC21}
+            name="Damini"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC25}
+            name="Niyti Sharma"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+    </div>
+    <Text style={{fontSize:"25px",color:"#10243f",fontWeight:"500", margin:"20px",textAlign:"center"}}>E-Prayas</Text>
+    <div class="grid-row">
+    <div className="grid-item">
+      <Profile
+            avatar={SC29}
+            name="Simarpreet Singh"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC23}
+            name="Nishith Arora"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC32}
+            name="Udaydeep Singh"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC14}
+            name="Harvir Kaur"
+            job="Innovation and event Management"
+            Department="Department: Law"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC11}
+            name ="Jyoti Yadav"
+            job="Innovation and event Management"
             Department="Department: Biotechnology"
             ></Profile>
       </div>
-      <div className="grid-item">
+      <div class="grid-item">
       <Profile
-            Img={SC12}
-            Name="Parminder singh"
-            Designation="Innovation and event Management, Promotion and Outreach activities"
+        avatar={SC20}
+        name="Divya Acharya"
+        job="I.T and Social Media Development,Innovation and event Management"
+        Department="Department:CET"
+        ></Profile>
+      </div>
+    </div>
+    <Text style={{fontSize:"25px",color:"#10243f",fontWeight:"500", margin:"20px",textAlign:"center"}}>Startups events and main holdings</Text>
+    <div class="grid-row">
+    <div className="grid-item">
+      <Profile
+            avatar={SC12}
+            name="Parminder singh"
+            job="Innovation and event Management, Promotion and Outreach activities"
             Department="Department: Mechanical Engineering"
             ></Profile>
       </div>
       <div class="grid-item">
       <Profile
-            Img={SC13}
-            Name="Raumit Raj"
-            Designation="Innovation and event Management"
+            avatar={SC13}
+            name="Raumit Raj"
+            job="Innovation and event Management"
             Department="Department: Electronics Technology"
             ></Profile>
       </div>
-      <div className="grid-item">
-      <Profile
-            Img={SC14}
-            Name="Harvir Kaur"
-            Designation="Innovation and event Management"
-            Department="Department: Law"
-            ></Profile>
-      </div>
-       {/* IT and Social Media */}
       <div class="grid-item">
       <Profile
-        Img={SC1}
-        Name="Simran Mehra"
-        Designation="I.T and Social Media Development"
-        Department="Department: Chemistry"
-        ></Profile>
+            avatar={SC2}
+            name="Sukhbeer Singh"
+            job="Innovation and event Management"
+            Department = "Department: Electronics Technology"
+            ></Profile>
       </div>
       <div class="grid-item">
       <Profile
-        Img={SC20}
-        Name="Divya Acharya"
-        Designation="I.T and Social Media Development,Innovation and event Management"
-        Department="Department:CET"
-        ></Profile>
-      </div>
-      <div class="grid-item">
-      <Profile
-            Img={SC8}
-            Name="Ankit Partap"
-            Designation="I.T and Social Media Development"
-            Department="Department: Computer Science"
-            ></Profile>
-      </div>
-      {/* Promotion */}
-      <div class="grid-item">
-      <Profile
-            Img={SC3}
-            Name="Jasmine Kaur"
-            Designation="Promotion and Outreach activities,Content Development"
-            Department="Department: Mass Communications"
-            ></Profile>
-      </div>
-      <div className="grid-item">
-      <Profile
-            Img={SC16}
-            Name="Ishmanpreet Kaur"
-            Designation="Promotion and Outreach activities"
-            Department="Department: Electronics Technology"
-            ></Profile>
-      </div>
-      <div className="grid-item">
-      <Profile
-            Img={SC17}
-            Name="Shabnampreet Kaur"
-            Designation="Promotion and Outreach activities,Content Development"
-            Department="Department: Mass Communications"
-            ></Profile>
-      </div>
-      <div className="grid-item">
-      <Profile
-            Img={SC6}
-            Name="Nipun Mahajan"
-            Designation="Promotion and Outreach activities,Content Development"
-            Department="Department: Electronics Technology"
-            ></Profile>
-      </div>
-      {/* Press */}
-      <div class="grid-item">
-      <Profile
-        Img={SC7}
-        Name="Yatin Batra"
-        Designation="Press and publication"
+        avatar={SC1}
+        name="Simran Mehra"
+        job="I.T and Social Media Development"
         Department="Department: Chemistry"
         ></Profile>
       </div>
       <div className="grid-item">
       <Profile
-            Img={SC19}
-            Name="Jaismeen Kaur"
-            Designation="Press and publication"
+            avatar={SC5}
+            name="Arshdeep Kaur"
+            job="Innovation and event Management"
+            Department = "Department: Physics"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC19}
+            name="Jaismeen Kaur"
+            job="Press and publication"
             Department="Department: Human Genetics"
             ></Profile>
       </div>
-      {/* Industry */}
-      <div class="grid-item">
-      <Profile
-            Img={SC9}
-            Name="Aashish Tirka"
-            Designation="Industrial/ Entrepreneurship linkage"
-            Department="Department: CSDA"
-            ></Profile>
-      </div>
       <div className="grid-item">
       <Profile
-            Img={SC10}
-            Name="Arjun Mehra"
-            Designation="Industrial/ Entrepreneurship linkage"
+            avatar={SC30}
+            name="Srishti Sharma"
+            job="Industrial/ Entrepreneurship linkage"
             Department="Department: CSDA"
             ></Profile>
       </div>
     </div>
-  </div>
+     
+   
+    
+     
+      </div>
+    
+     
+   
+   
+     
+       {/* IT and Social Media */}
+     
+      
+      
+      {/* Promotion */}
+     
+     
+      {/* <div className="grid-item">
+      <Profile
+            avatar={SC17}
+            name="Shabnampreet Kaur"
+            job="Promotion and Outreach activities,Content Development"
+            Department="Department: Mass Communications"
+            ></Profile>
+      </div> */}
+    
+      {/* Press */}
+   
+   
+      {/* Industry */}
+     
+     
+    
+  
+      
+     
+      
+    
+     
+  
+    
+    
+
 </div>         
             </Text>
           </Paper>
