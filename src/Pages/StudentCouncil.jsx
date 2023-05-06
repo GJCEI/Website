@@ -64,6 +64,66 @@ const data = [SC0,Student1,Student2,Student3,Student4,Student5,Student6,Student7
 
             <div class="section">
   <div class="container">
+  <Text style={{fontSize:"25px",color:"#10243f",fontWeight:"500", margin:"20px",textAlign:"center"}}>Startups events and main holdings</Text>
+    <div class="grid-row">
+    <div className="grid-item">
+      <Profile
+            avatar={SC12}
+            name="Parminder singh"
+            job="Innovation and event Management, Promotion and Outreach activities"
+            Department="Department: Mechanical Engineering"
+            ></Profile>
+      </div>
+      <div class="grid-item">
+      <Profile
+            avatar={SC13}
+            name="Raumit Raj"
+            job="Innovation and event Management"
+            Department="Department: Electronics Technology"
+            ></Profile>
+      </div>
+      <div class="grid-item">
+      <Profile
+            avatar={SC2}
+            name="Sukhbeer Singh"
+            job="Innovation and event Management"
+            Department = "Department: Electronics Technology"
+            ></Profile>
+      </div>
+      <div class="grid-item">
+      <Profile
+        avatar={SC1}
+        name="Simran Mehra"
+        job="I.T and Social Media Development"
+        Department="Department: Chemistry"
+        ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC5}
+            name="Arshdeep Kaur"
+            job="Innovation and event Management"
+            Department = "Department: Physics"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC19}
+            name="Jaismeen Kaur"
+            job="Press and publication"
+            Department="Department: Human Genetics"
+            ></Profile>
+      </div>
+      <div className="grid-item">
+      <Profile
+            avatar={SC30}
+            name="Srishti Sharma"
+            job="Industrial/ Entrepreneurship linkage"
+            Department="Department: CSDA"
+            ></Profile>
+      </div>
+    </div>
+     
   <Text style={{fontSize:"25px",color:"#10243f",fontWeight:"500", margin:"20px",textAlign:"center"}}>IT and Web</Text>
     <div class="grid-row">
     <div className="grid-item">
@@ -218,66 +278,7 @@ const data = [SC0,Student1,Student2,Student3,Student4,Student5,Student6,Student7
         ></Profile>
       </div>
     </div>
-    <Text style={{fontSize:"25px",color:"#10243f",fontWeight:"500", margin:"20px",textAlign:"center"}}>Startups events and main holdings</Text>
-    <div class="grid-row">
-    <div className="grid-item">
-      <Profile
-            avatar={SC12}
-            name="Parminder singh"
-            job="Innovation and event Management, Promotion and Outreach activities"
-            Department="Department: Mechanical Engineering"
-            ></Profile>
-      </div>
-      <div class="grid-item">
-      <Profile
-            avatar={SC13}
-            name="Raumit Raj"
-            job="Innovation and event Management"
-            Department="Department: Electronics Technology"
-            ></Profile>
-      </div>
-      <div class="grid-item">
-      <Profile
-            avatar={SC2}
-            name="Sukhbeer Singh"
-            job="Innovation and event Management"
-            Department = "Department: Electronics Technology"
-            ></Profile>
-      </div>
-      <div class="grid-item">
-      <Profile
-        avatar={SC1}
-        name="Simran Mehra"
-        job="I.T and Social Media Development"
-        Department="Department: Chemistry"
-        ></Profile>
-      </div>
-      <div className="grid-item">
-      <Profile
-            avatar={SC5}
-            name="Arshdeep Kaur"
-            job="Innovation and event Management"
-            Department = "Department: Physics"
-            ></Profile>
-      </div>
-      <div className="grid-item">
-      <Profile
-            avatar={SC19}
-            name="Jaismeen Kaur"
-            job="Press and publication"
-            Department="Department: Human Genetics"
-            ></Profile>
-      </div>
-      <div className="grid-item">
-      <Profile
-            avatar={SC30}
-            name="Srishti Sharma"
-            job="Industrial/ Entrepreneurship linkage"
-            Department="Department: CSDA"
-            ></Profile>
-      </div>
-    </div>
-     
+  
    
     
      

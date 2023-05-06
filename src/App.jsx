@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./Components/Layout";
-
+import Pages from "./Pages/Pages"
 // Pages
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
@@ -23,6 +23,7 @@ const App = () => {
         <Route path="/NewsEvents" element={<NewsEvents />} />
         <Route path="/Activities" element={<Activities />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/Page" element={<Pages />} />
       </Route>
     </Routes>
   );

@@ -1,11 +1,10 @@
 import { Box, Title, Paper, Text, Container, Flex, Image } from "@mantine/core";
-
 // Images
 import one from "../assets/NewsEventsImg/NewsEventImg1.jpeg";
 import two from "../assets/NewsEventsImg/NewsEventImg2.jpeg";
 import three from "../assets/NewsEventsImg/NewsEventImg3.jpeg";
 import four from "../assets/NewsEventsImg/NewsEventsImg4-.jpeg";
-
+import five from "../assets/NewsEventsImg/NewsEvents5.jpg";
 // Poster images
 import event1 from "../assets/GJCEIEvents/eventimg1.png";
 import event2 from "../assets/GJCEIEvents/eventimg2.png";
@@ -19,7 +18,7 @@ import Footer from "../Components/Footer";
 import Events from "../Components/Events";
 
 const NewsEvents = () => {
-  const data = [one, two,four];
+  const data = [one, two,four,five];
 
   return (
     <Box>

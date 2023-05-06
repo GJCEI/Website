@@ -15,7 +15,7 @@ import eleven from "../assets/InfrastructureImg/IMGK.jpeg";
 
 import Carousel from "../Components/Carousel";
 import  Footer  from "../Components/Footer";
-
+import "./Staff.css";
 const Infrastructure = () => {
   const data = [one, two, three, four, five,six, seven, ten,eleven];
 
@@ -43,21 +43,52 @@ To impart skill-based training for generating employability and enhancing entrep
                 },
               })}
             >
-<Infra
+              <div className="grid-row">
+                <div className="grid-item">
+                <Infra
               image = {five}
-              title = "Skill Lab 1"
+              title = "Co-working space"
               description = "svsdbs"
             />
+                </div>
+             <div className="grid-item" >
              <Infra
               image = {four}
-              title = "Skill Lab 2"
+              title = "IPR Cell"
               description = "svsdbs"
             />
-             <Infra
+             </div>
+          <div className="grid-item" >
+          <Infra
               image = {five}
-              title = "Skill Lab 1"
+              title = "Rent Out Space"
               description = "svsdbs"
             />
+          </div>
+            <div className="grid-item" >
+            <Infra
+              image = {five}
+              title = "Startup Cell"
+              description = "svsdbs"
+            />
+            </div>
+            <div className="grid-item" >
+            <Infra
+              image = {five}
+              title = "Discovery Lab"
+              description = "svsdbs"
+            />
+            </div>
+            <div className="grid-item" >
+
+            <Infra
+              image = {eleven}
+              title = "Skill Labs"
+              description = "svsdbs"
+            />
+            </div>
+              
+              </div>
            
 </Flex>
            

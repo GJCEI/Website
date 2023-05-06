@@ -1,6 +1,7 @@
 import { Box, Title, Paper, Text, Container, Flex } from "@mantine/core";
-
+import {ArticleCardVertical} from "../Components/Clubs";
 import "./Staff.css";
+import { useNavigate } from "react-router-dom";
 // Images
 import SC0 from ".././assets/StudentCouncilImg/SC0.jpg";
 import St1 from ".././assets/StaffImg/St1.png";
@@ -42,6 +43,15 @@ import Profile from "../Components/Profile";
 import Footer from "../Components/Footer";
 
 const Committee = () => {
+  const navigate = useNavigate();
+
+
+
+
+  function handleClick(){
+   
+    navigate("/Page")
+  }
   return (
     <Box>
       <Container>
@@ -118,7 +128,7 @@ const Committee = () => {
                         avatar={St2}
                         name="Ms. Harkirandeep Kaur"
                         job="Incharge IPR Cell GJCEI"
-                        Department="Department: Law"
+                        Department="Department of Laws"
                       ></Profile>
                     </div>
                     <div class="grid-item">
@@ -126,7 +136,7 @@ const Committee = () => {
                         avatar={St1}
                         name="Dr. Swati Mehta"
                         job="Startup and Promotions"
-                        Department="Department: Economics"
+                        Department="Punjab School of Economics"
                       ></Profile>
                     </div>
 
@@ -135,7 +145,7 @@ const Committee = () => {
                         avatar={St3}
                         name="Dr. Prabhpreet Singh"
                         job="Facility Mentor for Startup Activities"
-                        Department="Department: Chemistry"
+                        Department="Department of Chemistry"
                       ></Profile>
                     </div>
                     <div className="grid-item">
@@ -143,7 +153,7 @@ const Committee = () => {
                         avatar={St10}
                         name="Dr. Kuldeep Singh Brar"
                         job="Faculty Mentor for Discovery Lab"
-                        Department="Department: Electronics"
+                        Department="Department of Electronics Technology"
                       ></Profile>
                     </div>
                     <div className="grid-item">
@@ -151,10 +161,53 @@ const Committee = () => {
                         avatar={St11}
                         name="Dr. Rajdeep Singh Sohal"
                         job="Faculty Mentor for Discovery Lab"
-                        Department="Department: Electronics"
+                        Department="Department of Electronics Technology"
                       ></Profile>
                     </div>
                   </div>
+                </div>
+                <div className="container" style={{marginTop:"20px"}}>
+                  <Text
+                  style={{
+                    fontSize: "30px",
+                    color: "#10243f",
+                    fontWeight: "700",
+                    marginTop: "40px",
+                    textAlign: "center",
+                    marginBottom: "20px",
+                  }}>
+                  E-Clubs
+                  </Text>
+                  <div className="grid-row">
+                  <div class="grid-item">
+                  <ArticleCardVertical
+                  club="E-Startup"
+                  />
+                    </div>
+                    <div class="grid-item">
+                  <ArticleCardVertical
+                  club="E-Pryas"
+                  Click={()=>{handleClick}}/>
+                    </div>
+                    <div class="grid-item">
+                  <ArticleCardVertical
+                  club="E-Spotlight"/>
+                    </div>
+                    <div class="grid-item">
+                  <ArticleCardVertical
+                  club="E-Chopal"/>
+                    </div>
+                    <div class="grid-item">
+                  <ArticleCardVertical
+                  club="I-Buzz"/>
+                    </div>
+                    <div class="grid-item">
+                  <ArticleCardVertical
+                  club="GJCEI Web"/>
+                    </div>
+                  </div>
+                  
+                
                 </div>
                 <div className="container" style={{ marginTop: "20px" }}>
                   <Text
@@ -167,7 +220,7 @@ const Committee = () => {
                       marginBottom: "20px",
                     }}
                   >
-                    Staff
+                   Office Staff
                   </Text>
                   <div className="grid-row">
                     <div class="grid-item">
