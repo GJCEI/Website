@@ -30,7 +30,7 @@ const ContactUs = () => {
             marginTop: "20px",
           }}
         >
-          Linkage Form
+         Start Up Form
         </Text>
         <Box mt={32}>
           <Paper withBorder p="lg">

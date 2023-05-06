@@ -55,7 +55,11 @@ const Nav = () => {
       label:"Linkage Form",
       path:"/ContactUs"
     },
-    
+    {
+      label:"Startup Form",
+      path:"/StartupForm"
+    },
+
   ];
   useEffect(() => {
     window.addEventListener("scroll", stickNavbar);
