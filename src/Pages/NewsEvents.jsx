@@ -16,19 +16,59 @@ import event7 from "../assets/GJCEIEvents/Eventold.jpg";
 import Carousel from "../Components/Carousel";
 import Footer from "../Components/Footer";
 import Events from "../Components/Events";
-
 const NewsEvents = () => {
   const data = [one, two,four,five];
-
   return (
     <Box>
-    
       <Carousel images={data} />
-
       <Container>
         <Text style={{ fontSize: "30px", color: "#10243f", fontWeight: "700" }}>
           News And Events
         </Text>
+
+        <Box mt={40} py={40}>
+
+          
+              
+<Title order={2} mb={24}>
+  Upcoming Events
+</Title>
+<p>No Upcoming Events</p>
+<Flex
+  gap="sm"
+  sx={(theme) => ({
+    flexDirection: "column",
+    [theme.fn.largerThan("md")]: {
+      flexDirection: "row",
+    },
+  })}
+>
+</Flex>
+</Box>
+          <Box mt={40} py={40}>   
+            <Title order={2} mb={24}>
+             Former Events
+            </Title>
+            <Flex
+              gap="sm"
+              sx={(theme) => ({
+                flexDirection: "column",
+                [theme.fn.largerThan("md")]: {
+                  flexDirection: "row",
+                },
+              })}
+            >
+            <Events/>
+             <Image src={event6} />
+              <Image  src={event7} />
+              <Image src={event4} />
+              <Image src={event5} />
+              <Image src={event1} />
+              <Image src={event2} />
+              <Image src={event3} />    
+            </Flex>
+           
+          </Box>
        
         <Box mt={32}>
           <Paper>
@@ -92,60 +132,7 @@ const NewsEvents = () => {
 
             </Text>
           </Paper>
-          <Box mt={40} py={40}>
-
-          
-              
-<Title order={2} mb={24}>
-  Upcoming Events
-</Title>
-<p>No Upcoming Events</p>
-
-
-
-<Flex
-  gap="sm"
-  sx={(theme) => ({
-    flexDirection: "column",
-    [theme.fn.largerThan("md")]: {
-      flexDirection: "row",
-    },
-  })}
->
-  
-  
- 
-</Flex>
-
-</Box>
-          <Box mt={40} py={40}>
-
-          
-              
-            <Title order={2} mb={24}>
-             Former Events
-            </Title>
-            <Flex
-              gap="sm"
-              sx={(theme) => ({
-                flexDirection: "column",
-                [theme.fn.largerThan("md")]: {
-                  flexDirection: "row",
-                },
-              })}
-            >
-                  <Events/>
-             <Image src={event6} />
-              <Image  src={event7} />
-              <Image src={event4} />
-              <Image src={event5} />
-              <Image src={event1} />
-              <Image src={event2} />
-              <Image src={event3} />
-             
-            </Flex>
-           
-          </Box>
+         
         </Box>
       </Container>
       <Footer/>

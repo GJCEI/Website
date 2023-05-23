@@ -184,10 +184,10 @@ const Committee = () => {
                   club="E-Startup"
                   />
                     </div>
-                    <div class="grid-item">
+                    <div class="grid-item" onClick={()=>{navigate("/page")}}>
                   <ArticleCardVertical
                   club="E-Pryas"
-                  Click={()=>{handleClick}}/>
+                  />
                     </div>
                     <div class="grid-item">
                   <ArticleCardVertical

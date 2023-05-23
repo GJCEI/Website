@@ -61,13 +61,14 @@ function BadgeCard(props) {
 
       <Card.Section className={classes.section} mt="md">
         <Group position="apart">
-          <Text fz="lg" fw={500} >
+          <h3 >
             {props.title}
-          </Text>
-        </Group>
-        <Text fz="sm" mt="xs" style={{textAlign:"center"}}>
+          </h3>
+          <p style={{textAlign:"left"}}>
           {props.description}
-        </Text>
+        </p>
+        </Group>
+      
       </Card.Section>
 
 
